@@ -4,7 +4,7 @@ import istanbul from 'vite-plugin-istanbul'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/my-portfolio-vibha/',
+  base: '/',
   plugins: [
     react(),
     istanbul({
